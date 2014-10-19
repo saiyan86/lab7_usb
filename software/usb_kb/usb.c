@@ -40,11 +40,13 @@
 void UsbWrite(alt_u16 Address, alt_u16 Data)
 {
 	//XIo_Out16(USB_ADDRESS, Address);
-	IOWR(CY7C67200_BASE,HPI_ADDR,Address);
+	//specify memory location
+	IOWR(CY7C67200_BASE,HPI_ADDR,Address);//write Address to HPI_ADDR register
 	//usleep(10);
 
 	//XIo_Out16(USB_DATA, Data);
-	IOWR(CY7C67200_BASE,HPI_DATA,Data);
+	//write
+	IOWR(CY7C67200_BASE,HPI_DATA,Data);//write data to memory(HPI_DATA register)
 }
 
 /*****************************************************************************/
@@ -63,9 +65,11 @@ void UsbWrite(alt_u16 Address, alt_u16 Data)
 alt_u16 UsbRead(alt_u16 Address)
 {
 	//XIo_Out16(HPI_ADDR, Address);
-	IOWR(CY7C67200_BASE,HPI_ADDR,Address);
+	//specify memory location
+	IOWR(CY7C67200_BASE,HPI_ADDR,Address);//write Address to HPI_ADDR register
 	//usleep(20);
-	return IORD(CY7C67200_BASE,HPI_DATA);
+	//read
+	return IORD(CY7C67200_BASE,HPI_DATA);//read data from memory(HPI_DATA register)
 }
 
 
