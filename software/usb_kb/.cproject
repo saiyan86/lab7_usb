@@ -3,22 +3,22 @@
 
 <cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<buildSystem id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210">
-			<storageModule id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210" moduleId="org.eclipse.cdt.core.settings"/>
+		<buildSystem id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450">
+			<storageModule id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450" moduleId="org.eclipse.cdt.core.settings"/>
 		</buildSystem>
-		<cconfiguration id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210">
+		<cconfiguration id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450">
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration buildProperties="" description="" id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210" name="Nios II" parent="org.eclipse.cdt.build.core.prefbase.cfg">
-					<folderInfo id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210." name="/" resourcePath="">
-						<toolChain id="altera.nios2.mingw.gcc4.1513802439" name="MinGW Nios II GCC4" superClass="altera.nios2.mingw.gcc4">
-							<targetPlatform id="altera.nios2.mingw.gcc4.807971452" name="Nios II" superClass="altera.nios2.mingw.gcc4"/>
-							<builder buildPath="${workspace_loc://usb_kb}" id="cdt.managedbuild.target.gnu.builder.cygwin.base.1008450955" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.base.2076162984" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.base">
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.759788324" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+				<configuration buildProperties="" description="" id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450" name="Nios II" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450." name="/" resourcePath="">
+						<toolChain id="altera.nios2.mingw.gcc4.333726530" name="MinGW Nios II GCC4" superClass="altera.nios2.mingw.gcc4">
+							<targetPlatform id="altera.nios2.mingw.gcc4.609953649" name="Nios II" superClass="altera.nios2.mingw.gcc4"/>
+							<builder buildPath="${workspace_loc://usb_kb}" id="cdt.managedbuild.target.gnu.builder.cygwin.base.90736957" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.base.1623879691" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.418665968" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.839117321" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1384367621" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base">
-								<option id="gnu.cpp.compiler.option.preprocessor.undef.1986926294" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" valueType="undefDefinedSymbols">
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1022673027" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.975855475" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base">
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.621751014" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" valueType="undefDefinedSymbols">
 									<listOptionValue builtIn="false" value="__INT_FAST32_MAX__"/>
 									<listOptionValue builtIn="false" value="__SIG_ATOMIC_MAX__"/>
 									<listOptionValue builtIn="false" value="__FLT_EPSILON__"/>
@@ -230,10 +230,10 @@
 									<listOptionValue builtIn="false" value="__WCHAR_TYPE__"/>
 									<listOptionValue builtIn="false" value="__CHAR16_TYPE__"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.474514088" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.113072773" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.69010325" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base">
-								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.201331096" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" valueType="undefDefinedSymbols">
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1861405653" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base">
+								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.2054000825" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" valueType="undefDefinedSymbols">
 									<listOptionValue builtIn="false" value="__INT_FAST32_MAX__"/>
 									<listOptionValue builtIn="false" value="__SIG_ATOMIC_MAX__"/>
 									<listOptionValue builtIn="false" value="__FLT_EPSILON__"/>
@@ -438,11 +438,11 @@
 									<listOptionValue builtIn="false" value="__WCHAR_TYPE__"/>
 									<listOptionValue builtIn="false" value="__CHAR16_TYPE__"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.624107036" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.234880098" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.base.1038991882" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base.961991583" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base">
-								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.944686986" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.base.463556463" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base.606064859" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.751993957" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
@@ -451,7 +451,7 @@
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210" moduleId="org.eclipse.cdt.core.settings" name="Nios II">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450" moduleId="org.eclipse.cdt.core.settings" name="Nios II">
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
@@ -466,15 +466,15 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="usb_kb.null.856398954" name="usb_kb"/>
+		<project id="usb_kb.null.859353804" name="usb_kb"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1384367621;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.474514088">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1805725210.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.69010325;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.624107036">
+		<scannerConfigBuildInfo instanceId="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1861405653;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.234880098">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.975855475;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.113072773">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
