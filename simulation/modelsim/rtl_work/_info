@@ -1,0 +1,121 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ece385\lab7_usb\simulation\modelsim
+vball
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 IV>TBFcB=J8Y?i0:@l8?ZZ0
+Z3 VDIDB4D2hV?eUNk<S8P3Nn0
+S1
+Z4 dC:\ece385\lab7_usb\simulation\modelsim
+Z5 w1413259036
+Z6 8C:/ece385/lab7_usb/ball.sv
+Z7 FC:/ece385/lab7_usb/ball.sv
+L0 16
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 o-sv -work work -O0
+Z10 !s92 -sv -work work +incdir+C:/ece385/lab7_usb -O0
+!i10b 1
+Z11 !s100 21?a8U<^kfcUXRXlKW>ii0
+Z12 !s105 ball_sv_unit
+!s85 0
+Z13 !s108 1413260534.083000
+Z14 !s107 C:/ece385/lab7_usb/ball.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/ece385/lab7_usb|C:/ece385/lab7_usb/ball.sv|
+!s101 -O0
+vcolor_mapper
+R1
+Z16 IRm4KlmAG62TNbNHe^PNz60
+Z17 V8ZgajF2R6<Dmh>aVF>I>I3
+S1
+R4
+Z18 w1413260174
+Z19 8C:/ece385/lab7_usb/Color_Mapper.sv
+Z20 FC:/ece385/lab7_usb/Color_Mapper.sv
+L0 16
+R8
+r1
+31
+R9
+R10
+Z21 !s100 WGk`ZaLmGon_l4HY=>?EX1
+Z22 !s105 Color_Mapper_sv_unit
+Z23 !s108 1413260533.885000
+Z24 !s107 C:/ece385/lab7_usb/Color_Mapper.sv|
+Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/ece385/lab7_usb|C:/ece385/lab7_usb/Color_Mapper.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vHexDriver
+R1
+Z26 IbaHQf0Uj<7L5@EI_lgIWZ0
+Z27 V2G6=_O>lD=3U`GOXc0nkW3
+S1
+R4
+Z28 w1381255898
+Z29 8C:/ece385/lab7_usb/HexDriver.sv
+Z30 FC:/ece385/lab7_usb/HexDriver.sv
+L0 1
+R8
+r1
+31
+R9
+Z31 n@hex@driver
+Z32 !s100 2T5VQ`HO1O=W3OR2U3nGj3
+Z33 !s105 HexDriver_sv_unit
+Z34 !s108 1413260533.203000
+Z35 !s107 C:/ece385/lab7_usb/HexDriver.sv|
+Z36 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/ece385/lab7_usb|C:/ece385/lab7_usb/HexDriver.sv|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vlab7_usb
+R1
+!i10b 1
+!s100 Dhi1`;^2PE6SbMVdB<3Pl1
+I?YW?EcQYRQYF1MF_[h>Cn3
+V:fELH]YQM<0T?7558lge[3
+!s105 lab7_usb_sv_unit
+S1
+R4
+w1413260389
+8C:/ece385/lab7_usb/lab7_usb.sv
+FC:/ece385/lab7_usb/lab7_usb.sv
+L0 13
+R8
+r1
+!s85 0
+31
+!s108 1413260534.299000
+!s107 C:/ece385/lab7_usb/lab7_usb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/ece385/lab7_usb|C:/ece385/lab7_usb/lab7_usb.sv|
+!s101 -O0
+R9
+R10
+vvga_controller
+R1
+Z37 IajdV=GW3l[lGo7VRFddUV2
+Z38 Vo?5SCSYP7_^4dAMC38TXY1
+S1
+R4
+Z39 w1413260164
+Z40 8C:/ece385/lab7_usb/VGA_controller.sv
+Z41 FC:/ece385/lab7_usb/VGA_controller.sv
+L0 25
+R8
+r1
+31
+R9
+R10
+Z42 !s100 Dn^blmS7<ZBn7G5lXz3DL0
+Z43 !s105 VGA_controller_sv_unit
+Z44 !s108 1413260533.665000
+Z45 !s107 C:/ece385/lab7_usb/VGA_controller.sv|
+Z46 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/ece385/lab7_usb|C:/ece385/lab7_usb/VGA_controller.sv|
+!i10b 1
+!s85 0
+!s101 -O0

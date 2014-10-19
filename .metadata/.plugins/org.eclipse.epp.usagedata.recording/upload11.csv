@@ -1,0 +1,301 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error while launching command: gdb --version",1411944730764
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944730786
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944733741
+activated,perspective,com.altera.sbtgui.ui,14.0.0.200,"com.altera.sbtgui.ui.cPerspective",1411944741904
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944741911
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944745414
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1411944748461
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1411944749280
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944757344
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411944757802
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944760454
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944761210
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1411944763314
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944767793
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1411944784982
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1411944788616
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411944789920
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411944793823
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411944802223
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411944810408
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411944812531
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944812941
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944856608
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944860957
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944866857
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411944866866
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944868085
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944868267
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944868801
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411944868804
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411944870379
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944873863
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944902731
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1411944904663
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411944908130
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411944910853
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411944922808
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944923090
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944937940
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944937952
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944937970
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944940884
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944943896
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411944943902
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944945231
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411944945765
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411944947238
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944950772
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944952655
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1411944955938
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944955995
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944956034
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944967639
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944970236
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944973400
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944973489
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411944977731
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411944980461
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944980743
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944983362
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944984252
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944987478
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944988393
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411944991004
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944991013
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411944991034
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944994699
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411944999012
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411944999019
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411945000394
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411945000927
+error,log,,,"Failed Executing: [nios2-download, '--cable=', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411945002426
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411945005939
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411945023876
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411945071292
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411945071414
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411945093716
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411952879327
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953017454
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953053287
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953055318
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953059627
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953059764
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953061616
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953062635
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411953064228
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411953070407
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953070681
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953073458
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953079135
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953084722
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411953084729
+error,log,,,"Unhandled event loop exception",1411953084733
+error,log,,,"Unhandled event loop exception",1411953084736
+error,log,,,"Unhandled event loop exception",1411953084738
+error,log,,,"Unhandled event loop exception",1411953084741
+error,log,,,"Unhandled event loop exception",1411953084743
+error,log,,,"Unhandled event loop exception",1411953084746
+error,log,,,"Unhandled event loop exception",1411953084748
+error,log,,,"Unhandled event loop exception",1411953084751
+error,log,,,"Unhandled event loop exception",1411953084753
+error,log,,,"Unhandled event loop exception",1411953084756
+error,log,,,"Unhandled event loop exception",1411953084758
+error,log,,,"Unhandled event loop exception",1411953084760
+error,log,,,"Unhandled event loop exception",1411953084763
+error,log,,,"Unhandled event loop exception",1411953084766
+error,log,,,"Unhandled event loop exception",1411953084768
+error,log,,,"Unhandled event loop exception",1411953084770
+error,log,,,"Unhandled event loop exception",1411953084773
+error,log,,,"Unhandled event loop exception",1411953084775
+error,log,,,"Unhandled event loop exception",1411953084778
+error,log,,,"Unhandled event loop exception",1411953084780
+error,log,,,"Unhandled event loop exception",1411953084782
+error,log,,,"Unhandled event loop exception",1411953084785
+error,log,,,"Unhandled event loop exception",1411953084787
+error,log,,,"Unhandled event loop exception",1411953084790
+error,log,,,"Unhandled event loop exception",1411953084792
+error,log,,,"Unhandled event loop exception",1411953084795
+error,log,,,"Unhandled event loop exception",1411953084797
+error,log,,,"Unhandled event loop exception",1411953084799
+error,log,,,"Unhandled event loop exception",1411953084802
+error,log,,,"Unhandled event loop exception",1411953084804
+error,log,,,"Unhandled event loop exception",1411953084807
+error,log,,,"Unhandled event loop exception",1411953084809
+error,log,,,"Unhandled event loop exception",1411953084811
+error,log,,,"Unhandled event loop exception",1411953084814
+error,log,,,"Unhandled event loop exception",1411953084816
+error,log,,,"Unhandled event loop exception",1411953084819
+error,log,,,"Unhandled event loop exception",1411953084821
+error,log,,,"Unhandled event loop exception",1411953084824
+error,log,,,"Unhandled event loop exception",1411953084826
+error,log,,,"Unhandled event loop exception",1411953084828
+error,log,,,"Unhandled event loop exception",1411953084831
+error,log,,,"Unhandled event loop exception",1411953084834
+error,log,,,"Unhandled event loop exception",1411953084836
+error,log,,,"Unhandled event loop exception",1411953084839
+error,log,,,"Unhandled event loop exception",1411953084841
+error,log,,,"Unhandled event loop exception",1411953084844
+error,log,,,"Unhandled event loop exception",1411953084851
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953086215
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411953086752
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411953088213
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953091721
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953106051
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1411953164825
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953164898
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953164938
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953170053
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953170053
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1411953170077
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1411953189527
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411953191067
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953192605
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953192732
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953192900
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411953193196
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411953193764
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411953196998
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953197281
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953208261
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953208274
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953208300
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953211005
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953214961
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411953214969
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953216736
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411953217270
+error,log,,,"Failed Executing: [nios2-download, '--cable=', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411953218753
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953222279
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953230427
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1411953263529
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953263561
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1411953278473
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953278514
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953278553
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953283073
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1411953305780
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953305826
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411953305870
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953343453
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953594401
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411953596709
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411953599408
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411955077299
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955077301
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1411955079641
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955082672
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955086563
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411955090840
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955091116
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955092985
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955097067
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955100778
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411955100784
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411955102152
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1411955102691
+error,log,,,"Failed Executing: [nios2-download, '--cable=', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1411955104167
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411955107662
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411955129770
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955142622
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955144354
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955144483
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411955145181
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411955156345
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411955157895
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955165479
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1411955166994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1411955169918
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1411955171490
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955175843
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955176362
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955179074
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1411955181921
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1411955182452
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1411955187028
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955187304
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411955219230
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955219260
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1411955219273
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955227604
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1411955232901
+activated,view,com.altera.sbtgui.launch,14.0.0.200,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1411955232908
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1411955232919
+error,log,,,"Unhandled event loop exception",1411955232922
+error,log,,,"Unhandled event loop exception",1411955232925
+error,log,,,"Unhandled event loop exception",1411955232928
+error,log,,,"Unhandled event loop exception",1411955232930
+error,log,,,"Unhandled event loop exception",1411955232932
+error,log,,,"Unhandled event loop exception",1411955232935
+error,log,,,"Unhandled event loop exception",1411955232938
+error,log,,,"Unhandled event loop exception",1411955232940
+error,log,,,"Unhandled event loop exception",1411955232943
+error,log,,,"Unhandled event loop exception",1411955232945
+error,log,,,"Unhandled event loop exception",1411955232947
+error,log,,,"Unhandled event loop exception",1411955232950
+error,log,,,"Unhandled event loop exception",1411955232952
+error,log,,,"Unhandled event loop exception",1411955232955
+error,log,,,"Unhandled event loop exception",1411955232957
+error,log,,,"Unhandled event loop exception",1411955232959
+error,log,,,"Unhandled event loop exception",1411955232962
+error,log,,,"Unhandled event loop exception",1411955232964
+error,log,,,"Unhandled event loop exception",1411955232967
+error,log,,,"Unhandled event loop exception",1411955232969
+error,log,,,"Unhandled event loop exception",1411955232971
+error,log,,,"Unhandled event loop exception",1411955232974
+error,log,,,"Unhandled event loop exception",1411955232976
+error,log,,,"Unhandled event loop exception",1411955232979
+error,log,,,"Unhandled event loop exception",1411955232981
+error,log,,,"Unhandled event loop exception",1411955232984
+error,log,,,"Unhandled event loop exception",1411955232986
+error,log,,,"Unhandled event loop exception",1411955232988
+error,log,,,"Unhandled event loop exception",1411955232991
+error,log,,,"Unhandled event loop exception",1411955232993
+error,log,,,"Unhandled event loop exception",1411955233000
+error,log,,,"Unhandled event loop exception",1411955233003
+error,log,,,"Unhandled event loop exception",1411955233006
+error,log,,,"Unhandled event loop exception",1411955233008
+error,log,,,"Unhandled event loop exception",1411955233010
+error,log,,,"Unhandled event loop exception",1411955233013
+error,log,,,"Unhandled event loop exception",1411955233015
+error,log,,,"Unhandled event loop exception",1411955233018
+error,log,,,"Unhandled event loop exception",1411955233020
+error,log,,,"Unhandled event loop exception",1411955233022
+error,log,,,"Unhandled event loop exception",1411955233025
+error,log,,,"Unhandled event loop exception",1411955233027
+error,log,,,"Unhandled event loop exception",1411955233030
+error,log,,,"Unhandled event loop exception",1411955233032
+error,log,,,"Unhandled event loop exception",1411955233035
+error,log,,,"Unhandled event loop exception",1411955233038
+error,log,,,"Unhandled event loop exception",1411955233041
+error,log,,,"Unhandled event loop exception",1411955233043
+error,log,,,"Unhandled event loop exception",1411955233046
+error,log,,,"Unhandled event loop exception",1411955233049
+error,log,,,"Unhandled event loop exception",1411955233052
+error,log,,,"Unhandled event loop exception",1411955233055
+error,log,,,"Unhandled event loop exception",1411955233058
+error,log,,,"Unhandled event loop exception",1411955233061
+error,log,,,"Unhandled event loop exception",1411955233064
+error,log,,,"Unhandled event loop exception",1411955233066
+error,log,,,"Unhandled event loop exception",1411955233069
+error,log,,,"Unhandled event loop exception",1411955233072
+error,log,,,"Unhandled event loop exception",1411955233074
+error,log,,,"Unhandled event loop exception",1411955233077
+error,log,,,"Unhandled event loop exception",1411955233079
+error,log,,,"Unhandled event loop exception",1411955233082
+error,log,,,"Unhandled event loop exception",1411955233085
+error,log,,,"Unhandled event loop exception",1411955233087
+error,log,,,"Unhandled event loop exception",1411955233090
+error,log,,,"Unhandled event loop exception",1411955233093
+error,log,,,"Unhandled event loop exception",1411955233095
+error,log,,,"Unhandled event loop exception",1411955233098
+error,log,,,"Unhandled event loop exception",1411955233101
+error,log,,,"Unhandled event loop exception",1411955233103
+error,log,,,"Unhandled event loop exception",1411955233106
+error,log,,,"Unhandled event loop exception",1411955233109
+error,log,,,"Unhandled event loop exception",1411955233111
+error,log,,,"Unhandled event loop exception",1411955233114
+error,log,,,"Unhandled event loop exception",1411955233117
+error,log,,,"Unhandled event loop exception",1411955233119
+error,log,,,"Unhandled event loop exception",1411955233122

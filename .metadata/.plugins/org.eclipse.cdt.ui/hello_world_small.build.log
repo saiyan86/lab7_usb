@@ -1,0 +1,14 @@
+
+**** Build of configuration Nios II for project hello_world_small ****
+
+make all 
+Info: Building ../hello_world_small_bsp/
+make --no-print-directory -C ../hello_world_small_bsp/
+[BSP build complete]
+Info: Linking hello_world_small.elf
+nios2-elf-g++  -T'../hello_world_small_bsp//linker.x' -msys-crt0='../hello_world_small_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hello_world_small_bsp/  -msmallc  -Wl,-Map=hello_world_small.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o hello_world_small.elf obj/default/hello_world_small.o -lm 
+nios2-elf-insert hello_world_small.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 0 --sidp 0x10001838 --timestamp 1411609979 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name usb_system --quartus_project_dir "C:/ece385/lab7_usb" --sopcinfo C:/ece385/lab7_usb/software/hello_world_small_bsp/../../usb_system.sopcinfo
+make: *** [hello_world_small.elf] Error 127
+make: *** Deleting file `hello_world_small.elf'
+
+**** Build Finished ****

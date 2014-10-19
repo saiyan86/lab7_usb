@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------------------
+  --      usb.h                                                    	   --
+  --      Christine Chen                                                   --
+  --      Ref. DE2-115 Demonstrations by Terasic Technologies Inc.         --
+  --      Fall 2014                                                        --
+  --                                                                       --
+  --      For use with ECE 298 Experiment 7                                --
+  --      UIUC ECE Department                                              --
+  ---------------------------------------------------------------------------*/
+
+#ifndef USB_H_
+#define USB_H_
+
+//------------------------------ function declaration ----------------------------//
+//-------------USB operation -----------
+/*****************************************************************************/
+/**
+*
+* This function writes data to the internal registers of the Cypress
+* CY7C67200 USB controller.
+*
+* @param    Address is the address of the register.
+* @param    Data is the data to be written to the register.
+*
+* @return   None
+*
+* @note     None
+*
+******************************************************************************/
+void UsbWrite(alt_u16 Address, alt_u16 Data);
+
+/*****************************************************************************/
+/**
+*
+* This function reads data from the internal registers of the Cypress
+* CY7C67200 USB controller.
+*
+* @param    Address is the address of the register.
+*
+* @return   The data read from the specified address
+*
+* @note     None
+*
+******************************************************************************/
+alt_u16 UsbRead(alt_u16 Address);
+
+/*****************************************************************************/
+/**
+*
+* This function does a software reset of the Cypress CY7C67200 USB controller.
+*
+* @param    UsbBaseAddress is the starting location of the USB internal memory
+*           to which this bin file data is written.
+*
+* @return   None
+*
+* @note     None
+*
+******************************************************************************/
+void UsbSoftReset();
+
+#endif /* USB_H_ */

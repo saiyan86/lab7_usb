@@ -1,0 +1,172 @@
+/*---------------------------------------------------------------------------
+  --      usb.c                                                    	   --
+  --      Christine Chen                                                   --
+  --      Ref. DE2-115 Demonstrations by Terasic Technologies Inc.         --
+  --      Fall 2014                                                        --
+  --                                                                       --
+  --      For use with ECE 298 Experiment 7                                --
+  --      UIUC ECE Department                                              --
+  ---------------------------------------------------------------------------*/
+
+#include "usb.h"
+
+#include "system.h"
+#include "alt_types.h"
+#include <unistd.h>  // usleep
+#include <stdio.h>
+#include <io.h>
+
+#include "cy7c67200.h"
+#include "lcp_cmd.h"
+#include "lcp_data.h"
+
+//#define CY7C67200_0_BASE CY7C67200_IF_0_BASE
+
+//-------------USB operation sub function-----------
+/*****************************************************************************/
+/**
+ *
+ * This function writes data to the internal registers of the Cypress
+ * CY7C67200 USB controller.
+ *
+ * @param    Address is the address of the register.
+ * @param    Data is the data to be written to the register.
+ *
+ * @return   None
+ *
+ * @note     None
+ *
+ ******************************************************************************/
+void UsbWrite(alt_u16 Address, alt_u16 Data)
+{
+	//XIo_Out16(USB_ADDRESS, Address);
+	IOWR(CY7C67200_BASE,HPI_ADDR,Address);
+	//usleep(10);
+
+	//XIo_Out16(USB_DATA, Data);
+	IOWR(CY7C67200_BASE,HPI_DATA,Data);
+}
+
+/*****************************************************************************/
+/**
+ *
+ * This function reads data from the internal registers of the Cypress
+ * CY7C67200 USB controller.
+ *
+ * @param    Address is the address of the register.
+ *
+ * @return   The data read from the specified address
+ *
+ * @note     None
+ *
+ ******************************************************************************/
+alt_u16 UsbRead(alt_u16 Address)
+{
+	//XIo_Out16(HPI_ADDR, Address);
+	IOWR(CY7C67200_BASE,HPI_ADDR,Address);
+	//usleep(20);
+	return IORD(CY7C67200_BASE,HPI_DATA);
+}
+
+
+/*****************************************************************************/
+/**
+ *
+ * This function does a software reset of the Cypress CY7C67200 USB controller.
+ *
+ * @param    UsbBaseAddress is the starting location of the USB internal memory
+ *           to which this bin file data is written.
+ *
+ * @return   None
+ *
+ * @note     None
+ *
+ ******************************************************************************/
+void UsbSoftReset()
+{
+	//XIo_Out16(USB_MAILBOX, COMM_RESET);
+	IOWR(CY7C67200_BASE,HPI_MAILBOX,COMM_RESET); //COMM_JUMP2CODE
+	usleep(100000);
+	printf("[USB INIT]:reset finished!\n");
+
+	usleep(500000);
+	printf("[USB INIT]:Clear up the interrupt\r\n");
+	IORD(CY7C67200_BASE,HPI_MAILBOX);
+	IORD(CY7C67200_BASE,HPI_STATUS);
+
+	// Had to add the write due to a bug in BIOS where they overwrite
+	// the mailbox after initialization with garbage.  The read clears
+	// any pending interrupts.
+	UsbRead (HPI_SIE1_MSG_ADR);
+	UsbWrite (HPI_SIE1_MSG_ADR, 0);
+	UsbRead (HPI_SIE2_MSG_ADR);
+	UsbWrite (HPI_SIE2_MSG_ADR, 0);
+
+	UsbWrite (HOST1_STAT_REG, 0xFFFF);
+	UsbWrite (HOST2_STAT_REG, 0xFFFF);
+}
+
+
+void UsbSetAddress()
+{
+	//the starting address
+	IOWR(CY7C67200_BASE,HPI_ADDR,0x0500); //the start address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x050C);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0008); //4 port number
+	IOWR(CY7C67200_BASE,HPI_DATA,0x00D0);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0001);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0514);
+
+	//td content 4 bytes
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0500);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0002);//device address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000); //don't care
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);//port number
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0090);//device address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0041);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+
+	UsbWrite(HUSB_SIE1_pCurrentTDPtr,0x0500); //HUSB_SIE1_pCurrentTDPtr
+}
+
+
+void UsbGetDevDesc()
+{
+	//the starting address
+	IOWR(CY7C67200_BASE,HPI_ADDR,0x0500); //the start address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x050C);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0008); //4 port number
+	IOWR(CY7C67200_BASE,HPI_DATA,0x02D0); //device address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0001);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0514);
+
+	//td content 4 bytes
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0680);//c
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0100);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0008);
+
+	//data phase IN
+	IOWR(CY7C67200_BASE,HPI_DATA,0x052C); //
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0008);//
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0290);//
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0041);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0520);
+
+	//    //status phase
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000); //don't care
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);//port number
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0210);//device address
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0041);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+
+	UsbWrite(HUSB_SIE1_pCurrentTDPtr,0x0500); //HUSB_SIE1_pCurrentTDPtr
+}

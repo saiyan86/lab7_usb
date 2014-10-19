@@ -1,0 +1,354 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab7_usb_run_msim_rtl_systemverilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib usb_system
+# ** Warning: (vlib-34) Library already exists at "usb_system".
+# 
+# vmap usb_system usb_system
+# Modifying modelsim.ini
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis {C:/ece385/lab7_usb/usb_system/synthesis/usb_system.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system
+# 
+# Top level modules:
+# 	usb_system
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_1
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_1
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_mm_clock_crossing_bridge
+# 
+# Top level modules:
+# 	altera_avalon_mm_clock_crossing_bridge
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_dc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_dc_fifo
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_dcfifo_synchronizer_bundle
+# 
+# Top level modules:
+# 	altera_dcfifo_synchronizer_bundle
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CY7C67200_IF
+# 
+# Top level modules:
+# 	CY7C67200_IF
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_keycode
+# 
+# Top level modules:
+# 	usb_system_keycode
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_clocks_dffpipe_l2c
+# -- Compiling module usb_system_clocks_stdsync_sv6
+# -- Compiling module usb_system_clocks_altpll_pqa2
+# -- Compiling module usb_system_clocks
+# 
+# Top level modules:
+# 	usb_system_clocks
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_register_bank_a_module
+# -- Compiling module usb_system_cpu_register_bank_b_module
+# -- Compiling module usb_system_cpu_nios2_oci_debug
+# -- Compiling module usb_system_cpu_ociram_sp_ram_module
+# -- Compiling module usb_system_cpu_nios2_ocimem
+# -- Compiling module usb_system_cpu_nios2_avalon_reg
+# -- Compiling module usb_system_cpu_nios2_oci_break
+# -- Compiling module usb_system_cpu_nios2_oci_xbrk
+# -- Compiling module usb_system_cpu_nios2_oci_dbrk
+# -- Compiling module usb_system_cpu_nios2_oci_itrace
+# -- Compiling module usb_system_cpu_nios2_oci_td_mode
+# -- Compiling module usb_system_cpu_nios2_oci_dtrace
+# -- Compiling module usb_system_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module usb_system_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module usb_system_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module usb_system_cpu_nios2_oci_fifo
+# -- Compiling module usb_system_cpu_nios2_oci_pib
+# -- Compiling module usb_system_cpu_nios2_oci_im
+# -- Compiling module usb_system_cpu_nios2_performance_monitors
+# -- Compiling module usb_system_cpu_nios2_oci
+# -- Compiling module usb_system_cpu
+# 
+# Top level modules:
+# 	usb_system_cpu_nios2_performance_monitors
+# 	usb_system_cpu
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_sysclk
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_sysclk
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_tck
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_tck
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_jtag_debug_module_wrapper
+# 
+# Top level modules:
+# 	usb_system_cpu_jtag_debug_module_wrapper
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_oci_test_bench
+# 
+# Top level modules:
+# 	usb_system_cpu_oci_test_bench
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_cpu_test_bench
+# 
+# Top level modules:
+# 	usb_system_cpu_test_bench
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_jtag_uart_sim_scfifo_w
+# -- Compiling module usb_system_jtag_uart_scfifo_w
+# -- Compiling module usb_system_jtag_uart_sim_scfifo_r
+# -- Compiling module usb_system_jtag_uart_scfifo_r
+# -- Compiling module usb_system_jtag_uart
+# 
+# Top level modules:
+# 	usb_system_jtag_uart
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_sdram_input_efifo_module
+# -- Compiling module usb_system_sdram
+# 
+# Top level modules:
+# 	usb_system_sdram
+# vlog -sv -work work +incdir+C:/ece385/lab7_usb {C:/ece385/lab7_usb/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# vlog -sv -work work +incdir+C:/ece385/lab7_usb {C:/ece385/lab7_usb/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# vlog -sv -work work +incdir+C:/ece385/lab7_usb {C:/ece385/lab7_usb/Color_Mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# vlog -sv -work work +incdir+C:/ece385/lab7_usb {C:/ece385/lab7_usb/ball.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# vlog -sv -work work +incdir+C:/ece385/lab7_usb {C:/ece385/lab7_usb/lab7_usb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module lab7_usb
+# 
+# Top level modules:
+# 	lab7_usb
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_irq_clock_crosser.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_irq_clock_crosser
+# 
+# Top level modules:
+# 	altera_irq_clock_crosser
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_irq_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_irq_mapper
+# 
+# Top level modules:
+# 	usb_system_irq_mapper
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_rsp_mux_001
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_rsp_mux
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_rsp_demux_003
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_rsp_demux_003
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_rsp_demux
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_cmd_mux_003
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_cmd_mux_003
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_cmd_mux
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_cmd_demux_001
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_cmd_demux
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_router_005_default_decode
+# -- Compiling module usb_system_mm_interconnect_0_router_005
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_router_005
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_router_002_default_decode
+# -- Compiling module usb_system_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_router_002
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_router_001_default_decode
+# -- Compiling module usb_system_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_router_001
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usb_system_mm_interconnect_0_router_default_decode
+# -- Compiling module usb_system_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	usb_system_mm_interconnect_0_router
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(606): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(486): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(487): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# vlog -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules {C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# 

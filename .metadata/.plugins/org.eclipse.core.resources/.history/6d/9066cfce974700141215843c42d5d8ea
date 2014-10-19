@@ -1,0 +1,78 @@
+/*---------------------------------------------------------------------------
+  --      main.c                                                    	   --
+  --      Christine Chen                                                   --
+  --      Fall 2014                                                        --
+  --                                                                       --
+  --      For use with ECE 298 Experiment 7                                --
+  --      UIUC ECE Department                                              --
+  ---------------------------------------------------------------------------*/
+
+#include <stdio.h>
+//#include <string.h>
+//#include <stdlib.h>
+//#include <io.h>
+//#include <fcntl.h>
+//#include "BASICTYP.h"
+
+#include "system.h"
+//#include "VGA.h"
+#include "basic_io.h"
+//#include "LCD.h"
+#include <unistd.h>
+
+
+//#include "Test.h"
+#include "sys/alt_irq.h"
+#include "HAL4D13.h"
+
+#include "isa290.h"
+#include "reg.h"
+#include "buf_man.h"
+#include "port.h"
+#include "usb.h"
+#include "ptd.h"
+#include "helper.h"
+#include "keyboard.h"
+
+
+#include "ISP1362_HAL.h"
+
+#define keycode (volatile int*)KEYCODE_BASE
+
+unsigned int		hc_data;
+unsigned int		hc_com;
+unsigned int		dc_data;
+unsigned int		dc_com;
+
+/******************************* Notice **********************************
+ * Different USB mouse may send out different data packet format
+ *
+ * You should change the DATA_IN_PACKET_LENGTH value in MOUSE.h,and change the
+ * calculation of X,Y in the function <void play_mouse(unsigned int addr) > in MOUSE.c
+ * base on the format of USB Mouse data packet(if needed)
+ */
+
+int main(void)
+{
+  //printf("Hello World\n");
+  IOWR(keycode, 0, 5);
+  printf("keycode=%d\n", IORD(keycode, 0));
+
+/*	printf("HcReset=%x\n", r16(HcReset));
+
+printf("HcReset=%x\n", r16(HcReset));
+
+  printf("HcFmItv=%x\n", r32(HcFmItv));
+  	w32(HcFmItv  	, 0x25002EDF);
+  	printf("HcFmItv=%x\n", r32(HcFmItv));*/
+
+  IOWR(ISP1362_HC_BASE, 1, HcReset|0x80);
+  uSDelay(10);
+  IOWR(ISP1362_HC_BASE, 0, 0x00F6);
+
+  w16(HcReset,0x00F6);	//reset
+  reset_usb();			//config
+  keyboard();
+  return 0;
+}
+

@@ -1,0 +1,7 @@
+
+**** Clean-only build of configuration Nios II for project usb ****
+
+make clean 
+makefile:235: *** BSP directory does not exist: ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp.  Stop.
+
+**** Build Finished ****

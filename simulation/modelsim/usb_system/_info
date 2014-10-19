@@ -1,0 +1,1731 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ece385\lab7_usb\simulation\modelsim
+valtera_avalon_dc_fifo
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I:ndKR0LRgk[8^D6P]>JVa2
+VZUPMFz?KzgYeJJhUEZ1JV2
+S1
+Z2 dC:\ece385\lab7_usb\simulation\modelsim
+Z3 w1412186245
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v
+L0 13
+Z4 OV;L;10.1e;51
+r1
+31
+Z5 o-sv -work usb_system -O0
+Z6 !s92 -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules -O0
+!i10b 1
+!s100 ^J22HiSOK4<0X1f`X9[Vi2
+!s105 altera_avalon_dc_fifo_v_unit
+!s85 0
+!s108 1413260525.089000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_dc_fifo.v|
+!s101 -O0
+valtera_avalon_mm_clock_crossing_bridge
+R1
+Ihl:NUH7kS`N>k_z<^I_DU3
+VY<=b61mdCWG@f4=iRWf<73
+S1
+R2
+R3
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v
+L0 30
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 D9cnS6RinSb7HSCeJM1RC3
+!s105 altera_avalon_mm_clock_crossing_bridge_v_unit
+!s85 0
+!s108 1413260524.855000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v|
+!s101 -O0
+valtera_avalon_sc_fifo
+R1
+I3[cIG2YXlzZ6MBdGRFzQz1
+VjOzUMS5nAQIa6?lLKEfID0
+S1
+R2
+w1411973032
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 49SJHPHE1^1F51jV><_X:0
+!s105 altera_avalon_sc_fifo_v_unit
+!s85 0
+!s108 1413260524.575000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s101 -O0
+valtera_avalon_st_clock_crosser
+R1
+I[h`F7KiG_0;mJ5HRO8C><0
+V0e:lkDY0^f=mT6IM[:_5b3
+S1
+R2
+Z7 w1412186246
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 8iX:Ll?^OAbVhE5co2>XB3
+!s105 altera_avalon_st_clock_crosser_v_unit
+!s85 0
+!s108 1413260536.110000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s101 -O0
+valtera_avalon_st_handshake_clock_crosser
+R1
+IMz;mU`Dm0d[OACKn5_NjH3
+VYDTFiCWV0RkTigPZ<4iW90
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+L0 24
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 3CQ2:LBJH[Gc2_^0aI3g93
+!s105 altera_avalon_st_handshake_clock_crosser_v_unit
+!s85 0
+!s108 1413260535.844000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s101 -O0
+valtera_dcfifo_synchronizer_bundle
+R1
+I>:o7M4:m7`@F0kCgJNY6o2
+Vj>T>Y6nGjcX>R_6B^<M_z0
+S1
+R2
+R3
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v
+L0 8
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 <;]m:@Y7?InL<VV`RI^FT3
+!s105 altera_dcfifo_synchronizer_bundle_v_unit
+!s85 0
+!s108 1413260525.456000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v|
+!s101 -O0
+valtera_irq_clock_crosser
+R1
+I=F7=PbBR5kVl:f5X7<LLm3
+VQ^oZabhTZI6Ri3BO2OVO73
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_irq_clock_crosser.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_irq_clock_crosser.sv
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 ZnkG_l<5[`<PIEg]E^d[h0
+!s105 altera_irq_clock_crosser_sv_unit
+!s85 0
+!s108 1413260534.794000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_irq_clock_crosser.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_irq_clock_crosser.sv|
+!s101 -O0
+valtera_merlin_arb_adder
+R1
+IaVd<GfQlID[dG^35MdY6h1
+VeEm48mj>0hhNR4acO5n:k1
+Z8 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R2
+R7
+Z9 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Z10 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R4
+r1
+31
+Z11 !s108 1413260536.568000
+Z12 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z13 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_arbitrator.sv|
+R5
+R6
+!i10b 1
+!s100 iUjJf_AVh@^fAYZPCI>L22
+!s85 0
+!s101 -O0
+valtera_merlin_arbitrator
+R1
+I=^=SL[POMo^liHN9eoj>i3
+VkoHZHN`N_KjQAPBBQ3eh^0
+R8
+S1
+R2
+R7
+R9
+R10
+L0 103
+R4
+r1
+31
+R11
+R12
+R13
+R5
+R6
+!i10b 1
+!s100 :QFdA3]Fn5ObHXT@mTYb;3
+!s85 0
+!s101 -O0
+valtera_merlin_burst_uncompressor
+R1
+IJkic594f=VjRVg:8cRQ`o3
+Vk1gIA`RY2OQ1N9QbTULJo2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 K13WLoc6DZ8@4@3U3B6VH2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+!s85 0
+!s108 1413260541.377000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s101 -O0
+valtera_merlin_master_agent
+R1
+!i10b 1
+!s100 YfdgGfc[2LgA4WhKiJo5G2
+Ia:0OKFBSWe`aY>Uien3h?2
+V[oCE2g[UWhT]48:GJKRkM3
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R4
+r1
+!s85 0
+31
+!s108 1413260541.759000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_agent.sv|
+!s101 -O0
+R5
+R6
+valtera_merlin_master_translator
+R1
+I]f?[iQgAA]mmefIT>IEMV2
+V0KIH7<bW[IFhHJBzB4US?0
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_translator.sv
+L0 30
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 ^l8LC:k0b8ND:g[X[dgJh3
+!s105 altera_merlin_master_translator_sv_unit
+!s85 0
+!s108 1413260535.585000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_master_translator.sv|
+!s101 -O0
+valtera_merlin_slave_agent
+R1
+I77cX2=UaCO7z]V5>5PbVV1
+VQRTL2;ok>5F_@1VCn>z^^3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv
+L0 34
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 eC34?YGZQ8OJ`:P2S6h3Z1
+!s105 altera_merlin_slave_agent_sv_unit
+!s85 0
+!s108 1413260540.967000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s101 -O0
+valtera_merlin_slave_translator
+R1
+I6z68cC4:5>Qkio73No;]o2
+VA6G6lglY;QOHbkKlTEAXC0
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 AzVeQ@R@KNKL4AWa8T?GE3
+!s105 altera_merlin_slave_translator_sv_unit
+!s85 0
+!s108 1413260535.319000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s101 -O0
+valtera_reset_controller
+R1
+IEFRfIgCc^EzKJbN8Rj<]Y3
+Vd6XZeNR]PniX]Sml3E;hm2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v
+L0 42
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 kd1Dkcb:d1dD>b<6MV9?F0
+!s105 altera_reset_controller_v_unit
+!s85 0
+!s108 1413260523.127000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_controller.v|
+!s101 -O0
+valtera_reset_synchronizer
+R1
+IAh`BB07Y]WW`Kl:_2_alZ0
+V3CjoOZCIEdzCJgPn8]D7`2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 :YALgabCdQbUB7@`GJ:hi3
+!s105 altera_reset_synchronizer_v_unit
+!s85 0
+!s108 1413260523.472000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s101 -O0
+vCY7C67200_IF
+R1
+I7JB=<=jaA0VFg`Ag5;dhm1
+V::k4la3CMMFD]j?loj8141
+S1
+R2
+R3
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v
+L0 1
+R4
+r1
+31
+R5
+R6
+n@c@y7@c67200_@i@f
+!i10b 1
+!s100 7C6AoPlOb;cPdj:=L6AUI0
+!s105 CY7C67200_IF_v_unit
+!s85 0
+!s108 1413260525.655000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/CY7C67200_IF.v|
+!s101 -O0
+vusb_system
+R1
+IUNMODR?E^UFOk<Z1o2a@_0
+VRNJl2T0Se<GmC;NbN:=d>1
+S1
+R2
+w1412186233
+8C:/ece385/lab7_usb/usb_system/synthesis/usb_system.v
+FC:/ece385/lab7_usb/usb_system/synthesis/usb_system.v
+L0 6
+R4
+r1
+31
+R5
+!i10b 1
+!s100 N3=1DEgE3bl1IhDz^kF6D0
+!s105 usb_system_v_unit
+!s85 0
+!s108 1413260522.888000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/usb_system.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis|C:/ece385/lab7_usb/usb_system/synthesis/usb_system.v|
+!s101 -O0
+!s92 -sv -work usb_system +incdir+C:/ece385/lab7_usb/usb_system/synthesis -O0
+vusb_system_clocks
+R1
+I[IZK`:ceO^@Md@^9IFJB03
+VbO`FQ_HA6L6YD0Fc`[PQN0
+Z14 !s105 usb_system_clocks_v_unit
+S1
+R2
+Z15 w1412186244
+Z16 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v
+Z17 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v
+L0 218
+R4
+r1
+31
+Z18 !s108 1413260526.122000
+Z19 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v|
+Z20 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_clocks.v|
+R5
+R6
+!i10b 1
+!s100 c<EhY0ZBLJ]O0VkQfPj<E0
+!s85 0
+!s101 -O0
+vusb_system_clocks_altpll_pqa2
+R1
+I2aQI:6]b`TI[aTKC`;miN3
+VHzela_H^De[LHPTCi;;^=1
+R14
+S1
+R2
+R15
+R16
+R17
+L0 131
+R4
+r1
+31
+R18
+R19
+R20
+R5
+R6
+!i10b 1
+!s100 fgXQ@;[3U?JdYDLY7_]i^0
+!s85 0
+!s101 -O0
+vusb_system_clocks_dffpipe_l2c
+R1
+ID_KNNQ3gI[nJ<6lEF_d4z1
+VM:1IVLF8>o`0>Q1K`7C1J0
+R14
+S1
+R2
+R15
+R16
+R17
+L0 38
+R4
+r1
+31
+R18
+R19
+R20
+R5
+R6
+!i10b 1
+!s100 JzeHL616;>e`k@hJ<Si[E0
+!s85 0
+!s101 -O0
+vusb_system_clocks_stdsync_sv6
+R1
+I>2kjjXXdJ?NjDmN2?@nU^0
+VNTbAHnm6oENhDJzf3>G@o2
+R14
+S1
+R2
+R15
+R16
+R17
+L0 99
+R4
+r1
+31
+R18
+R19
+R20
+R5
+R6
+!i10b 1
+!s100 TYmIQ2I]NP<OA[U@DKMAN0
+!s85 0
+!s101 -O0
+vusb_system_cpu
+R1
+I:P_=dASKAL4Q8;68C]^6[2
+V?8:CPm5a4NmmSU3ME@f]H2
+Z21 !s105 usb_system_cpu_v_unit
+S1
+R2
+Z22 w1412186241
+Z23 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v
+Z24 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v
+L0 3166
+R4
+r1
+31
+Z25 !s108 1413260526.957000
+Z26 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v|
+Z27 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu.v|
+R5
+R6
+!i10b 1
+!s100 f0FU<>dRkzd><dUkcUBbo3
+!s85 0
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_sysclk
+R1
+IBzaPUAB^D[<ZA@8C<F51X1
+VI:OmdJQAORPHT?V_JOZ<J1
+S1
+R2
+R22
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 h7e@d^XYn@d`dP5:dXLh61
+!s105 usb_system_cpu_jtag_debug_module_sysclk_v_unit
+!s85 0
+!s108 1413260530.495000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_sysclk.v|
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_tck
+R1
+IMIe?;MT6YdcP:iNB5Hc]I3
+VE>M7V`ec^lGN6fPMPgf1R1
+S1
+R2
+R22
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 LLRmTMM456_mRfDZg7;Vk2
+!s105 usb_system_cpu_jtag_debug_module_tck_v_unit
+!s85 0
+!s108 1413260530.946000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_tck.v|
+!s101 -O0
+vusb_system_cpu_jtag_debug_module_wrapper
+R1
+IZXj:WQWJ6ReG1;nWnkFVL2
+VY@FPV2XI?Y0>@DI1IBchQ2
+S1
+R2
+R22
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 YP6bXEO3`hLYJbFHNJ@YQ2
+!s105 usb_system_cpu_jtag_debug_module_wrapper_v_unit
+!s85 0
+!s108 1413260531.157000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_jtag_debug_module_wrapper.v|
+!s101 -O0
+vusb_system_cpu_nios2_avalon_reg
+R1
+IAF[zE53=okoG=[``BHjBQ1
+VdAk:n65RkPkPo=b<8NWT]1
+R21
+S1
+R2
+R22
+R23
+R24
+L0 536
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 IFA9Qb=;igCoH:lcaP6B80
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci
+R1
+IX0^Q=LWSIhdQ8T5c>a<Wm0
+V17CnWePPCPc63`odOeJWa2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 2658
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 TKIQGM:`fJ^Ui5kU>3g4X2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_break
+R1
+I8gP6iW;4H?lYD6A8YhQeS2
+V^;b0mfXg7@ab5h<g@fBBQ1
+R21
+S1
+R2
+R22
+R23
+R24
+L0 628
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 9dg4=GXQjZ`1A4W[8759[0
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_compute_input_tm_cnt
+R1
+I;FM=9?iS3?P7SX_cMOVk`3
+V2[oX6JULCZghcU4G8UoLl2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1798
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 [gQI1hZL7foAET:dM9fCm1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_dbrk
+R1
+I:`g`=W4Q6?mDbD<>>Sc743
+VA`W:8WeRMJH6PMSDiDHPd2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1128
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 z?h_MD];:H0PYb13MU_1i0
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_debug
+R1
+Ie6L[H9z2_hPn4E9W2AFLM2
+Vb904IVN2J8H6G?BA9D`JT2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 151
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 WVgJV3ik`l73zPAo]l:Gi3
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_dtrace
+R1
+IY]zcO5Hi?Z9VgCF^?CPDb2
+VUYZmI:bKejkce0LS2]@R71
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1704
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 QacRzn4j:@AJDEQb^d5SU0
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo
+R1
+I[gk8iU]UamQ4JRU`IB>:V0
+VDO;JLz8X6lT:dDa;U:o2o2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1957
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 k6k8ZQhe3lg`z133gD5NV2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo_cnt_inc
+R1
+IlO5@6L?7KKP7FL8>6SW1n3
+V;;5`In<2_?>`SG5UV8F:d0
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1911
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 1m4RnPdQ<8AfF7;oLCFak3
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_fifo_wrptr_inc
+R1
+I8PNN2`zjhX`7`X1@g`oX50
+VMdW7^2FbhMa]=CQVbP1MT2
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1869
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 L_df>FKIFX28W=CH;A[>f1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_im
+R1
+Ioi76^]ZYA@]]FMB5Z4gWS1
+VFYkkc0njoLbHhDFj=4d_N3
+R21
+S1
+R2
+R22
+R23
+R24
+L0 2526
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 F4clBEM?1jm>R_?AJA4Pd2
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_itrace
+R1
+IB;16?oG@[aKXMRo^a>^TY3
+VeH>NUNGh692el69^h=R1_0
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1314
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 ;nf75R@N23jY4gUQ1kASS0
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_pib
+R1
+II[dHze:QhO?0_D7YK1:M73
+VzjCHVdLO97KjUIjN=i]Q<1
+R21
+S1
+R2
+R22
+R23
+R24
+L0 2458
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 ?X<@];ezUST1lRB<a3fiA1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_td_mode
+R1
+IocgzNZS5oRgI?49Fg2Y@c0
+VFE0<J2^8FNN>926KM6_lm0
+R21
+S1
+R2
+R22
+R23
+R24
+L0 1637
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 94Mgj2RPk_SgT_gQK6Y490
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_oci_xbrk
+R1
+Ik454b_gEi0fA3X55YBGb:2
+V2ePb_;Vo;Czc`kIna9Uh71
+R21
+S1
+R2
+R22
+R23
+R24
+L0 922
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 NORMHAI:<j5M0@fZBV?4A1
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_ocimem
+R1
+I_0mJC?T<CP17Fc2N1@kGD3
+V]idO6ifK^`;95C_UzheJi3
+R21
+S1
+R2
+R22
+R23
+R24
+L0 355
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 G6:bcWJOXEM>Gfig]kTdR0
+!s85 0
+!s101 -O0
+vusb_system_cpu_nios2_performance_monitors
+R1
+I5^dl3GkDoHiUKmman]OB00
+V7H>nFmB>Pkh5obb`o=?3:1
+R21
+S1
+R2
+R22
+R23
+R24
+L0 2642
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 0nn[0XY=bdJf7I9?Oz@KY2
+!s85 0
+!s101 -O0
+vusb_system_cpu_oci_test_bench
+R1
+I_Y9iV4bB@CWQi;A9FFF3g1
+VRfgHG<R<k9?TVoZHfZo781
+S1
+R2
+R22
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 :k92Fe?Mz2amgPj8Gcb:<2
+!s105 usb_system_cpu_oci_test_bench_v_unit
+!s85 0
+!s108 1413260531.378000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_oci_test_bench.v|
+!s101 -O0
+vusb_system_cpu_ociram_sp_ram_module
+R1
+IkLZz<dWL;h6i>b]VGJCGP2
+Ve=Z@PM9m=>0ZOSi@YXV?O1
+R21
+S1
+R2
+R22
+R23
+R24
+L0 292
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 mP0dQ]aKZV6?]bRCZ?c@B3
+!s85 0
+!s101 -O0
+vusb_system_cpu_register_bank_a_module
+R1
+I@4cNieUEYEZc:N7EaoCKd2
+V0jUHH?W<M7DCGPE5z;kjA0
+R21
+S1
+R2
+R22
+R23
+R24
+L0 21
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 IHBaj7UCS6b84H71z>bWW0
+!s85 0
+!s101 -O0
+vusb_system_cpu_register_bank_b_module
+R1
+Il[odU?BA=dBBfWH8YY_jm0
+VmKifK>Wlh]3HXz?EESfSi0
+R21
+S1
+R2
+R22
+R23
+R24
+L0 86
+R4
+r1
+31
+R25
+R26
+R27
+R5
+R6
+!i10b 1
+!s100 SzoRQgbXA^fZ2A>iLE_em0
+!s85 0
+!s101 -O0
+vusb_system_cpu_test_bench
+R1
+I1Gb2f=BBW]eN_=fnW:::m0
+VW80kfD15;L6U9MUAFhc741
+S1
+R2
+R22
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 B>IhA=e>zRHiOcd2lhg:40
+!s105 usb_system_cpu_test_bench_v_unit
+!s85 0
+!s108 1413260531.594000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_cpu_test_bench.v|
+!s101 -O0
+vusb_system_irq_mapper
+R1
+IHliBSScW3E3;Aid]8GLU^2
+V]JeCm3<of=8V?Qd>`dYlh2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_irq_mapper.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_irq_mapper.sv
+L0 31
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 ;aTZRC52EHf1QcUonhJ5b1
+!s105 usb_system_irq_mapper_sv_unit
+!s85 0
+!s108 1413260535.060000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_irq_mapper.sv|
+!s101 -O0
+vusb_system_jtag_uart
+R1
+I<NmLD[CNel><;7XnG`4a>3
+VL=_bjkVz714>CXK>e_F1Z2
+Z28 !s105 usb_system_jtag_uart_v_unit
+S1
+R2
+Z29 w1411973021
+Z30 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v
+Z31 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v
+L0 327
+R4
+r1
+31
+Z32 !s108 1413260531.870000
+Z33 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v|
+Z34 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_jtag_uart.v|
+R5
+R6
+!i10b 1
+!s100 >me2TK:;E=?R>ej`Ef@D_2
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_scfifo_r
+R1
+ILVli2b^Ec3D5bL6lkPY3E0
+VdS]hoiB=<mfkA?kdnjbK<0
+R28
+S1
+R2
+R29
+R30
+R31
+L0 240
+R4
+r1
+31
+R32
+R33
+R34
+R5
+R6
+!i10b 1
+!s100 So4VK5_QEhE[aW5i:JOC13
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_scfifo_w
+R1
+I6PYW0nNNEL981]@<N8S:o0
+V4V>WJzRk5>P4zIUchzUJj0
+R28
+S1
+R2
+R29
+R30
+R31
+L0 77
+R4
+r1
+31
+R32
+R33
+R34
+R5
+R6
+!i10b 1
+!s100 M`I7PZ[ff0;d6h?F4_hZO3
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_sim_scfifo_r
+R1
+I?H8EPz]GC>_3fRK::FzV82
+V:h4lnfCXE1iK>oWc=D9M:3
+R28
+S1
+R2
+R29
+R30
+R31
+L0 162
+R4
+r1
+31
+R32
+R33
+R34
+R5
+R6
+!i10b 1
+!s100 0V1S7?AUgN5ibU2i]^]<j0
+!s85 0
+!s101 -O0
+vusb_system_jtag_uart_sim_scfifo_w
+R1
+IUo@M5?DIo=T:[1of^^A_Q1
+VXHdd^_@2Xb0?;H2?5[cDb2
+R28
+S1
+R2
+R29
+R30
+R31
+L0 21
+R4
+r1
+31
+R32
+R33
+R34
+R5
+R6
+!i10b 1
+!s100 GF^ENSojMA?0XFBPVZ2z92
+!s85 0
+!s101 -O0
+vusb_system_keycode
+R1
+Icz6A7ZVO_jmBC<1WSDQ6<1
+Vd`LiXMmPl66@aFJQWLogm2
+S1
+R2
+R3
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v
+L0 21
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 O2W[=nK0PTPBKZ>]1X2H51
+!s105 usb_system_keycode_v_unit
+!s85 0
+!s108 1413260525.882000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_keycode.v|
+!s101 -O0
+vusb_system_mm_interconnect_0
+R1
+IZ]>mUW`LP`[S2T8aT>Z1c1
+VA=02dBO3mZTkb4fFF[[H^2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v
+L0 9
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 e2E<AJj3lI:bVSP3C_c0N0
+!s105 usb_system_mm_interconnect_0_v_unit
+!s85 0
+!s108 1413260523.960000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0.v|
+!s101 -O0
+vusb_system_mm_interconnect_0_cmd_demux
+R1
+IU4=:RnUX]=7]N7a3jeSj80
+VVjUP`mB=4Q9D046cMgiFV3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv
+L0 43
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 P:z_06?leZ_`D2Bdi1`:a3
+!s105 usb_system_mm_interconnect_0_cmd_demux_sv_unit
+!s85 0
+!s108 1413260538.877000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_cmd_demux_001
+R1
+IITC4P5U^oW[]b4co3MGV23
+V3`Qz[lg5]hSSViQd725eH2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv
+L0 43
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 WWaANPQk;8QmA;=@2^8j20
+!s105 usb_system_mm_interconnect_0_cmd_demux_001_sv_unit
+!s85 0
+!s108 1413260538.559000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_demux_001.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_cmd_mux
+R1
+IiNDI>IR=hiaIJRAZjP6=Y0
+V5;ITZKJ]zjndhI5`Fhl7M1
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv
+L0 38
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 gHA2fo[?:BV0V5h>7i[Qf1
+!s105 usb_system_mm_interconnect_0_cmd_mux_sv_unit
+!s85 0
+!s108 1413260538.285000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_cmd_mux_003
+R1
+IUX[4:`>_]=K7jC4Q6hK2J0
+VXI1=HClfDCRfzmbz6=N6z2
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv
+L0 38
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 JDo>XXGX]I^IW_zKna1f<2
+!s105 usb_system_mm_interconnect_0_cmd_mux_003_sv_unit
+!s85 0
+!s108 1413260538.042000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_cmd_mux_003.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_router
+R1
+IzII^koKYE]l:3mCB7NhN[2
+VCJ=Lik5khGm2ffH>T_?Ua0
+Z35 !s105 usb_system_mm_interconnect_0_router_sv_unit
+S1
+R2
+R7
+Z36 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv
+Z37 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv
+L0 86
+R4
+r1
+31
+Z38 !s108 1413260540.676000
+Z39 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv|
+Z40 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router.sv|
+R5
+R6
+!i10b 1
+!s100 ?]HkQP29`5551=L4Q48g82
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_001
+R1
+I6EBJKc3>hjOMc01JRU?Qk2
+VmlEL87heSL[1MYRnSDC:10
+Z41 !s105 usb_system_mm_interconnect_0_router_001_sv_unit
+S1
+R2
+R7
+Z42 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv
+Z43 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv
+L0 86
+R4
+r1
+31
+Z44 !s108 1413260539.945000
+Z45 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv|
+Z46 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_001.sv|
+R5
+R6
+!i10b 1
+!s100 PC1CA;RQ@i6k8M8T:4;1c0
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_001_default_decode
+R1
+IkQ;^Y1OQ>5;0PAo]7E5YP0
+V`1OScFGnnDFNeC4:YVNV21
+R41
+S1
+R2
+R7
+R42
+R43
+L0 45
+R4
+r1
+31
+R44
+R45
+R46
+R5
+R6
+!i10b 1
+!s100 f8JECY7Hc>JS_GnF6mP210
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_002
+R1
+If85ob8JimH]]`<gj8Gnc?3
+VY8=7AMI3nM^W6?zQLJj3T2
+Z47 !s105 usb_system_mm_interconnect_0_router_002_sv_unit
+S1
+R2
+R7
+Z48 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv
+Z49 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv
+L0 86
+R4
+r1
+31
+Z50 !s108 1413260539.561000
+Z51 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv|
+Z52 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_002.sv|
+R5
+R6
+!i10b 1
+!s100 AR5b3i<8X[cTzHRb0ocB_3
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_002_default_decode
+R1
+INj`mQM4XRD;Uk:Pom9UK63
+V7JHKRfM3J8lFmRB=^Qo=e0
+R47
+S1
+R2
+R7
+R48
+R49
+L0 45
+R4
+r1
+31
+R50
+R51
+R52
+R5
+R6
+!i10b 1
+!s100 AG;K4d^KPIaSRR]elHCU80
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_005
+R1
+I4Dj373DA71a;LkbmNkizO2
+V5gXjeFSB]:K3<S`0GlPdA0
+Z53 !s105 usb_system_mm_interconnect_0_router_005_sv_unit
+S1
+R2
+R7
+Z54 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv
+Z55 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv
+L0 86
+R4
+r1
+31
+Z56 !s108 1413260539.202000
+Z57 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv|
+Z58 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_router_005.sv|
+R5
+R6
+!i10b 1
+!s100 Q::XL;n9QSkXRi?V8obTo1
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_005_default_decode
+R1
+IX7Efzm[IfP@=0JQIHOgT[3
+VZTg[cQAI3]Yl>EjCPKI1@1
+R53
+S1
+R2
+R7
+R54
+R55
+L0 45
+R4
+r1
+31
+R56
+R57
+R58
+R5
+R6
+!i10b 1
+!s100 EVk`mDcNJOonQzEeJeYfn0
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_router_default_decode
+R1
+IB`>:jZbSbB;aA19A[@f?d1
+Vf>>zz_KkCz=a8UUOHBR_m0
+R35
+S1
+R2
+R7
+R36
+R37
+L0 45
+R4
+r1
+31
+R38
+R39
+R40
+R5
+R6
+!i10b 1
+!s100 QlT`lbAc0M3M1<B=<L[QI3
+!s85 0
+!s101 -O0
+vusb_system_mm_interconnect_0_rsp_demux
+R1
+Iz<]WF^ccM@4M<0co>@SCe3
+VRS<@Kz?P<knFWDohG<_2_3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv
+L0 43
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 O49OocJCJXJ9W6M:aWQaM2
+!s105 usb_system_mm_interconnect_0_rsp_demux_sv_unit
+!s85 0
+!s108 1413260537.817000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_rsp_demux_003
+R1
+Ie^iNBdCFZVN[=>5L5`_ab2
+V5XB;[6B?0>cRPZfXg[GO:3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv
+L0 43
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 S2G2?IIgBz7>NYz<?>;Lz2
+!s105 usb_system_mm_interconnect_0_rsp_demux_003_sv_unit
+!s85 0
+!s108 1413260537.569000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_demux_003.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_rsp_mux
+R1
+I`K7W?:dXBcN=XCLCQ9f_M1
+VBOh0VmWQgdIWIX71;8jDE1
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv
+L0 38
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 ]Oa@mQEcK6i3bXS=A[^h92
+!s105 usb_system_mm_interconnect_0_rsp_mux_sv_unit
+!s85 0
+!s108 1413260537.225000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux.sv|
+!s101 -O0
+vusb_system_mm_interconnect_0_rsp_mux_001
+R1
+IU<de2Tl[53hicY2m=cX[Y1
+VQ`iNMVI1]^BiPVzZk?GG]3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv
+L0 38
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 LGZS0<Z37WMKI_[fnZ8KP0
+!s105 usb_system_mm_interconnect_0_rsp_mux_001_sv_unit
+!s85 0
+!s108 1413260536.910000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_0_rsp_mux_001.sv|
+!s101 -O0
+vusb_system_mm_interconnect_1
+R1
+I9IK1>M^2RK;31jCQ7<RjM2
+VFefcb:m5_Mg2GBMkIIgmJ3
+S1
+R2
+R7
+8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v
+FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v
+L0 9
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 ]:VNlIhFGS_E[7[lCbAO]3
+!s105 usb_system_mm_interconnect_1_v_unit
+!s85 0
+!s108 1413260523.680000
+!s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v|
+!s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_mm_interconnect_1.v|
+!s101 -O0
+vusb_system_sdram
+R1
+I2eHf<<98aSnT2[d^n41^g0
+VPbH0JdV>Cz<d=5=Uo;g<>1
+Z59 !s105 usb_system_sdram_v_unit
+S1
+R2
+Z60 w1411973020
+Z61 8C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v
+Z62 FC:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v
+L0 158
+R4
+r1
+31
+Z63 !s108 1413260532.818000
+Z64 !s107 C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v|
+Z65 !s90 -reportprogress|300|-sv|-work|usb_system|+incdir+C:/ece385/lab7_usb/usb_system/synthesis/submodules|C:/ece385/lab7_usb/usb_system/synthesis/submodules/usb_system_sdram.v|
+R5
+R6
+!i10b 1
+!s100 eNj3ObU@AJL855a4Q3O9P0
+!s85 0
+!s101 -O0
+vusb_system_sdram_input_efifo_module
+R1
+InWfH1`4MR?X4eUF_jKaX`2
+V_S7jk:3I=c;eleWiTWcBD0
+R59
+S1
+R2
+R60
+R61
+R62
+L0 21
+R4
+r1
+31
+R63
+R64
+R65
+R5
+R6
+!i10b 1
+!s100 U[o9[N?E5QXZYdS_;WZN21
+!s85 0
+!s101 -O0

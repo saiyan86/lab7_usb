@@ -1,0 +1,18 @@
+#ifndef ISP1362_HAL_H_
+#define ISP1362_HAL_H_
+
+#include "basic_io.h"
+#include "system.h"
+
+#define USB_HC_DATA_READ()          IORD(ISP1362_HC_BASE, 0)
+#define USB_HC_DATA_WRITE(value)    IOWR(ISP1362_HC_BASE, 0, value)
+#define USB_HC_CMD_READ()           IORD(ISP1362_HC_BASE, 1)
+#define USB_HC_CMD_WRITE(value)     IOWR(ISP1362_HC_BASE, 1, value)
+
+
+#define USB_DC_DATA_READ()          IORD(ISP1362_DC_BASE, 0)
+#define USB_DC_DATA_WRITE(value)    IOWR(ISP1362_DC_BASE, 0, value)
+#define USB_DC_CMD_READ()           IORD(ISP1362_DC_BASE, 1)
+#define USB_DC_CMD_WRITE(value)     IOWR(ISP1362_DC_BASE, 1, value)
+
+#endif /*ISP1362_DRIVER_H_*/
