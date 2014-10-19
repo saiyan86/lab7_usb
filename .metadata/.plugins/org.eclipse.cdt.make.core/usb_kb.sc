@@ -450,6 +450,9 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.975855475;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.113072773">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/HAL/inc"/>
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/"/>
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/drivers/inc"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -667,10 +670,17 @@
 <definedSymbol symbol="unix=1"/>
 <definedSymbol symbol="__unix__=1"/>
 <definedSymbol symbol="__unix=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1943904450.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1861405653;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.234880098">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/HAL/inc"/>
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/"/>
+<includePath path="G:/Course/ECE/ECE385/lab7_usb/software/usb_kb_bsp/drivers/inc"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="G:\course\ece\ece385\altera\quartus\bin64\cygwin\usr\include"/>
@@ -878,6 +888,10 @@
 <definedSymbol symbol="unix=1"/>
 <definedSymbol symbol="__unix__=1"/>
 <definedSymbol symbol="__unix=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
 </scannerInfo>

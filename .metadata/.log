@@ -11858,3 +11858,12 @@ java.io.IOException: There is not enough space on the disk
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-19 19:13:54.545
+!MESSAGE Indexed 'usb_kb' (2 sources, 76 headers) in 1.84 sec: 3,222 declarations; 4,300 references; 6 unresolved inclusions; 2 syntax errors; 373 unresolved names (4.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-19 19:15:35.199
+!MESSAGE Indexed 'usb_kb' (2 sources, 76 headers) in 1.03 sec: 3,222 declarations; 4,300 references; 6 unresolved inclusions; 2 syntax errors; 373 unresolved names (4.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-10-19 19:15:49.449
+!MESSAGE Indexed 'usb_kb_bsp' (79 sources, 121 headers) in 1.59 sec: 4,261 declarations; 5,472 references; 0 unresolved inclusions; 3 syntax errors; 18 unresolved names (0.18%)
