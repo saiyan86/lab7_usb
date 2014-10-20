@@ -323,7 +323,8 @@ int main(void)
 
 	// TASK: Write the address to read from the memory for the endpoint descriptor to HPI_ADDR.
 	IOWR(CY7C67200_BASE,HPI_ADDR,0x057B);
-	data_size = (IORD(CY7C67200_BASE,HPI_DATA)>>8)&0x0ff;
+	//data_size = (IORD(CY7C67200_BASE,HPI_DATA)>>8)&0x0ff;
+	data_size = 8;
 	printf("[ENUM PROCESS]:data packet size is %d\n",data_size);
 
 	// STEP 7 begin

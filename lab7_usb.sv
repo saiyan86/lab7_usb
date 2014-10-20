@@ -48,7 +48,8 @@ module  lab7_usb 		( input         Clk,
     logic Reset_h, vssig;
     logic [9:0] drawxsig, drawysig, ballxsig, ballysig, ballsizesig;
 	 logic [7:0] keycode;
-    
+    logic [7:0] buffer_out;
+	 
     assign {Reset_h}=~ (Reset);  // The push buttons are active low
 	 assign OTG_FSPEED = 1'bz;
 	 assign OTG_LSPEED = 1'bz;
@@ -84,6 +85,7 @@ module  lab7_usb 		( input         Clk,
    
     ball ball_instance(.Reset(Reset_h),
 	                    .frame_clk(vs),    // Vertical Sync used as an "ad hoc" 60 Hz clock signal
+							  .key_in(buffer_out),
 	                    .BallX(ballxsig),  // (This is why we registered it in the vga controller!)
 							  .BallY(ballysig),
 							  .BallS(ballsizesig));
@@ -98,6 +100,14 @@ module  lab7_usb 		( input         Clk,
 	 HexDriver hex_inst_0 (keycode[3:0], HEX0);
 	 HexDriver hex_inst_1 (keycode[7:4], HEX1);
     
+	 HexDriver hex_inst_2 (buffer_out[3:0], HEX2);
+	 HexDriver hex_inst_3 (buffer_out[7:4], HEX3);
+	 reg_8 kb_buffer( .Reset_Reg(Reset_h),
+							 .Clk(vs),
+							 .Load(1),
+							 .D(keycode),
+							 .Data_Out(buffer_out)
+							 )	;
 
 	 /**************************************************************************************
 	    ATTENTION! Please answer the following quesiton in your lab report! Points will be allocated for the answers!

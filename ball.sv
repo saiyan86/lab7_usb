@@ -13,7 +13,8 @@
 //-------------------------------------------------------------------------
 
 
-module  ball ( input Reset, frame_clk,
+module  ball ( input Reset, frame_clk, 
+					input [7:0]key_in,
                output [9:0]  BallX, BallY, BallS );
     
     logic [9:0] Ball_X_Pos, Ball_X_Motion, Ball_Y_Pos, Ball_Y_Motion, Ball_Size;
@@ -29,6 +30,27 @@ module  ball ( input Reset, frame_clk,
 
     assign Ball_Size = 4;  // assigns the value 4 as a 10-digit binary number, ie "0000000100"
    
+	 always_comb
+	 begin 
+		case(key_in)
+		8'd26://up
+		Ball_Y_Motion <= Ball_Y_Step;
+		8'd22://down
+		Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);
+		8'd4://left
+		Ball_X_Motion <= Ball_X_Step;
+		8'd7://right
+		Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);
+		
+		default:
+			begin
+			Ball_X_Motion <= Ball_X_Motion;
+			Ball_Y_Motion <= Ball_Y_Motion;
+			end
+		endcase
+	 end
+	 
+	
     always_ff @ (posedge Reset or posedge frame_clk )
     begin: Move_Ball
         if (Reset)  // Asynchronous Reset
@@ -46,13 +68,18 @@ module  ball ( input Reset, frame_clk,
 					  
 				 else if ( (Ball_Y_Pos - Ball_Size) <= Ball_Y_Min )  // Ball is at the top edge, BOUNCE!
 					  Ball_Y_Motion <= Ball_Y_Step;
+				 
+				 else if ( (Ball_X_Pos + Ball_Size) >= Ball_X_Max )  // Ball is at the right edge, BOUNCE!
+					  Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);  // 2's complement.
+					  
+				 else if ( (Ball_X_Pos - Ball_Size) <= Ball_X_Min )  // Ball is at the left edge, BOUNCE!
+					  Ball_X_Motion <= Ball_X_Step;
 					  
 				 else 
-					  Ball_Y_Motion <= Ball_Y_Motion;  // Ball is somewhere in the middle, don't bounce, just keep moving
-					  
-				 
-				 Ball_X_Motion <= Ball_X_Motion;  // You need to remove this and make both X and Y respond to keyboard input
-				 
+				 begin
+					  Ball_Y_Motion <= Ball_Y_Motion;  // Ball is somewhere in the middle, don't bounce, just keep moving					  				 
+					  Ball_X_Motion <= Ball_X_Motion;  // You need to remove this and make both X and Y respond to keyboard input
+				 end
 				 Ball_Y_Pos <= (Ball_Y_Pos + Ball_Y_Motion);  // Update ball position
 				 Ball_X_Pos <= (Ball_X_Pos + Ball_X_Motion);
 			

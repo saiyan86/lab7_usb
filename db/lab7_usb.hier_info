@@ -1,6 +1,6 @@
 |lab7_usb
 Clk => Clk.IN1
-Reset => Reset_h.IN1
+Reset => Reset_h.IN2
 HEX0[0] << HexDriver:hex_inst_0.port1
 HEX0[1] << HexDriver:hex_inst_0.port1
 HEX0[2] << HexDriver:hex_inst_0.port1
@@ -15,20 +15,20 @@ HEX1[3] << HexDriver:hex_inst_1.port1
 HEX1[4] << HexDriver:hex_inst_1.port1
 HEX1[5] << HexDriver:hex_inst_1.port1
 HEX1[6] << HexDriver:hex_inst_1.port1
-HEX2[0] << <GND>
-HEX2[1] << <GND>
-HEX2[2] << <GND>
-HEX2[3] << <GND>
-HEX2[4] << <GND>
-HEX2[5] << <GND>
-HEX2[6] << <GND>
-HEX3[0] << <GND>
-HEX3[1] << <GND>
-HEX3[2] << <GND>
-HEX3[3] << <GND>
-HEX3[4] << <GND>
-HEX3[5] << <GND>
-HEX3[6] << <GND>
+HEX2[0] << HexDriver:hex_inst_2.port1
+HEX2[1] << HexDriver:hex_inst_2.port1
+HEX2[2] << HexDriver:hex_inst_2.port1
+HEX2[3] << HexDriver:hex_inst_2.port1
+HEX2[4] << HexDriver:hex_inst_2.port1
+HEX2[5] << HexDriver:hex_inst_2.port1
+HEX2[6] << HexDriver:hex_inst_2.port1
+HEX3[0] << HexDriver:hex_inst_3.port1
+HEX3[1] << HexDriver:hex_inst_3.port1
+HEX3[2] << HexDriver:hex_inst_3.port1
+HEX3[3] << HexDriver:hex_inst_3.port1
+HEX3[4] << HexDriver:hex_inst_3.port1
+HEX3[5] << HexDriver:hex_inst_3.port1
+HEX3[6] << HexDriver:hex_inst_3.port1
 HEX4[0] << <GND>
 HEX4[1] << <GND>
 HEX4[2] << <GND>
@@ -81883,5 +81883,76 @@ Out0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
 Out0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 Out0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
 Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_usb|HexDriver:hex_inst_2
+In0[0] => Decoder0.IN3
+In0[1] => Decoder0.IN2
+In0[2] => Decoder0.IN1
+In0[3] => Decoder0.IN0
+Out0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_usb|HexDriver:hex_inst_3
+In0[0] => Decoder0.IN3
+In0[1] => Decoder0.IN2
+In0[2] => Decoder0.IN1
+In0[3] => Decoder0.IN0
+Out0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_usb|reg_8:kb_buffer
+Clk => Data_Out[0]~reg0.CLK
+Clk => Data_Out[1]~reg0.CLK
+Clk => Data_Out[2]~reg0.CLK
+Clk => Data_Out[3]~reg0.CLK
+Clk => Data_Out[4]~reg0.CLK
+Clk => Data_Out[5]~reg0.CLK
+Clk => Data_Out[6]~reg0.CLK
+Clk => Data_Out[7]~reg0.CLK
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Reset_Reg => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+Load => Data_Out.OUTPUTSELECT
+D[0] => Data_Out.DATAB
+D[1] => Data_Out.DATAB
+D[2] => Data_Out.DATAB
+D[3] => Data_Out.DATAB
+D[4] => Data_Out.DATAB
+D[5] => Data_Out.DATAB
+D[6] => Data_Out.DATAB
+D[7] => Data_Out.DATAB
+Data_Out[0] <= Data_Out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[1] <= Data_Out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[2] <= Data_Out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[3] <= Data_Out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[4] <= Data_Out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[5] <= Data_Out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[6] <= Data_Out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Data_Out[7] <= Data_Out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
