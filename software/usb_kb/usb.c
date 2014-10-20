@@ -89,6 +89,7 @@ alt_u16 UsbRead(alt_u16 Address)
 void UsbSoftReset()
 {
 	//XIo_Out16(USB_MAILBOX, COMM_RESET);
+	//Send RESET request to HPI_MAILBOX register
 	IOWR(CY7C67200_BASE,HPI_MAILBOX,COMM_RESET); //COMM_JUMP2CODE
 	usleep(100000);
 	printf("[USB INIT]:reset finished!\n");
@@ -113,18 +114,33 @@ void UsbSoftReset()
 
 void UsbSetAddress()
 {
+	//refer to https://wiki.cites.illinois.edu/wiki/download/attachments/510868487/AN6010.pdf?version=1&modificationDate=1413260412000&api=v2
 	//the starting address
-	IOWR(CY7C67200_BASE,HPI_ADDR,0x0500); //the start address
-	// TD #1: 6 writes
-	IOWR(CY7C67200_BASE,HPI_DATA,0x050C);
-	IOWR(CY7C67200_BASE,HPI_DATA,0x0008); //4 port number
+	IOWR(CY7C67200_BASE,HPI_ADDR,0x0500); //the start address:0x00-01
+	// TD #1(SET ADDRESS Tdesc): 6 writes, this is continuous writes, writes data in consecutive memory locations.
 	// TASK: Complete with 4 more IOWR functions
+	IOWR(CY7C67200_BASE,HPI_DATA,0x050C);//base address of data buffer:0x02-03
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0008); //4 port number
+	IOWR(CY7C67200_BASE,HPI_DATA,0x00D0);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0001);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0514);
 
-	// TD #2: 4 writes
+	// TD #2(SET ADDRESS Tdata): 4 writes
 	// TASK: Complete with 4 IOWR functions
-	
-	// TD #3: 6 writes
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0500);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0002);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+
+	// TD #3(SET ADDRESS Status Phase Tdesc): 6 writes
 	// TASK: Complete with 6 IOWR functions
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0090);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0041);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0013);
+	IOWR(CY7C67200_BASE,HPI_DATA,0x0000);
 
 	UsbWrite(HUSB_SIE1_pCurrentTDPtr,0x0500); //HUSB_SIE1_pCurrentTDPtr
 }
