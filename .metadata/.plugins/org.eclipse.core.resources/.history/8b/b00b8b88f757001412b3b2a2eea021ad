@@ -362,7 +362,7 @@ int main(void)
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
-		UsbClassRequest();
+		UsbClassRequest()
 		usleep(10*1000);
 	}
 
@@ -419,7 +419,7 @@ int main(void)
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
-		UsbGetReportDesc();
+		UsbGetReportDesc()
 		usleep(10*1000);
 	}
 

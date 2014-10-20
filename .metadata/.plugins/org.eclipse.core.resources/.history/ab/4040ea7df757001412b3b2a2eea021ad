@@ -356,13 +356,13 @@ int main(void)
 
 	//----------------------------------------------class request out ------------------------------------------//
 	// TASK: Call the appropriate function for this step.
-	UsbClassRequest();
+	UsbClassRequest()
 	//usleep(10*1000);
 
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
-		UsbClassRequest();
+		UsbClassRequest()
 		usleep(10*1000);
 	}
 
@@ -413,13 +413,13 @@ int main(void)
 	// STEP 9 begin
 	//-------------------------------get descriptor (class 0x22 = report)-------------------------------------------//
 	// TASK: Call the appropriate function for this step.
-	UsbGetReportDesc();
+	UsbGetReportDesc()
 	//usleep(100*1000);
 	//if no message
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
-		UsbGetReportDesc();
+		UsbGetReportDesc()
 		usleep(10*1000);
 	}
 
