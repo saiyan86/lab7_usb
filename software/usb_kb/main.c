@@ -185,12 +185,14 @@ int main(void)
 
 	// STEP 4 begin
 	//-------------------------------get device descriptor-1 -----------------------------------//
+	UsbGetDeviceDesc1();
 	// TASK: Call the appropriate function for this step.
 
 	//usleep(10*1000);
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbGetDeviceDesc1();
 		usleep(10*1000);
 	}
 
@@ -213,7 +215,7 @@ int main(void)
 	//--------------------------------get device descriptor-2---------------------------------------------//
 	//get device descriptor
 	// TASK: Call the appropriate function for this step.
-
+	UsbGetDeviceDesc2();
 	//usleep(100*1000);
 	//if no message
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
@@ -221,7 +223,7 @@ int main(void)
 		//resend the get device descriptor
 		//get device descriptor
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
-
+		UsbGetDeviceDesc2();
 		usleep(10*1000);
 	}
 
@@ -244,7 +246,7 @@ int main(void)
 	// STEP 5 begin
 	//-----------------------------------get configuration descriptor -1 ----------------------------------//
 	// TASK: Call the appropriate function for this step.
-
+	UsbGetConfigDesc1();
 	//usleep(10*1000);
 	//if no message
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
@@ -253,6 +255,7 @@ int main(void)
 		//get device descriptor
 
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbGetConfigDesc1();
 		usleep(10*1000);
 	}
 
@@ -274,12 +277,13 @@ int main(void)
 	//-----------------------------------get configuration descriptor-2------------------------------------//
 	//get device descriptor
 	// TASK: Call the appropriate function for this step.
-
+	UsbGetConfigDesc2();
 	usleep(100*1000);
 	//if no message
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbGetConfigDesc2();
 		usleep(10*1000);
 	}
 
@@ -324,11 +328,13 @@ int main(void)
 	// STEP 7 begin
 	//------------------------------------set configuration -----------------------------------------//
 	// TASK: Call the appropriate function for this step.
+	UsbSetConfig();
 	//usleep(10*1000);
 
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbSetConfig();
 		usleep(10*1000);
 	}
 
@@ -349,11 +355,13 @@ int main(void)
 
 	//----------------------------------------------class request out ------------------------------------------//
 	// TASK: Call the appropriate function for this step.
+	UsbClassRequest()
 	//usleep(10*1000);
 
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbClassRequest()
 		usleep(10*1000);
 	}
 
@@ -376,12 +384,13 @@ int main(void)
 	// STEP 8 begin
 	//----------------------------------get descriptor(class 0x21 = HID) request out --------------------------------//
 	// TASK: Call the appropriate function for this step.
-
+	UsbGetHidDesc();
 	//usleep(10*1000);
 
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbGetHidDesc();
 		usleep(10*1000);
 	}
 
@@ -403,11 +412,13 @@ int main(void)
 	// STEP 9 begin
 	//-------------------------------get descriptor (class 0x22 = report)-------------------------------------------//
 	// TASK: Call the appropriate function for this step.
+	UsbGetReportDesc()
 	//usleep(100*1000);
 	//if no message
 	while (!(IORD(CY7C67200_BASE,HPI_STATUS) & HPI_STATUS_SIE1msg_FLAG) )  //read sie1 msg register
 	{
 		// TASK: Call the appropriate function again if it wasn't processed successfully.
+		UsbGetReportDesc()
 		usleep(10*1000);
 	}
 
